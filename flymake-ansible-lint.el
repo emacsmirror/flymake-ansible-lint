@@ -5,7 +5,7 @@
 ;; Author: James Cherti <https://www.jamescherti.com/contact/>
 ;; Version: 1.0.7
 ;; URL: https://github.com/jamescherti/flymake-ansible-lint.el
-;; Keywords: tools
+;; Keywords: tools, languages
 ;; Package-Requires: ((emacs "27.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -57,7 +57,7 @@
 
 (defgroup flymake-ansible-lint nil
   "Non-nil if flymake-ansible-lint mode mode is enabled."
-  :group 'flymake-ansible-lint
+  :group 'flymake
   :prefix "flymake-ansible-lint-"
   :link '(url-link
           :tag "Github"
